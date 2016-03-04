@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from datetime import datetime
+from collections import OrderedDict
 import requests, time, json, csv, os, random
 
 def new_payload(block, flat_type, contract):
@@ -50,7 +51,7 @@ class Unit:
         return ['block', 'flat_type', 'unit_no', 'floor', 'stack', 'status', 'size', 'cost']
 
     def __repr__(self):
-        return json.dumps(self.__dict__)
+        return json.dumps(OrderedDict(sorted(self.__dict__.items())))
 
 def unit_from_soup(soup):
   # Unbooked
@@ -101,6 +102,7 @@ def write_stats(filename, all_units, stats, expected_count):
         "4-Room": 0,
         "5-Room": 0
     }
+    flat_type_count = OrderedDict(sorted(flat_type_count.items()))
 
     for block, flat_types in stats.items():
         for flat_type, count in flat_types.items():
@@ -114,8 +116,8 @@ def write_stats(filename, all_units, stats, expected_count):
             out.write("###OK###\n")
 
         out.write("Health check\n")
-        out.write("\tRetrieved: {}\n".format(flat_type_count))
-        out.write("\tExpected: {}\n".format(expected_count))
+        out.write("\tRetrieved: {}\n".format(tuple(flat_type_count.items())))
+        out.write("\tExpected: {}\n".format(tuple(expected_count.items())))
 
         if tuple(flat_type_count.items()) != tuple(expected_count.items()):
             out.write("\n\tTotal retrieved flats did not match expected count.\n")
@@ -171,6 +173,7 @@ if __name__ == "__main__":
         "4-Room": 1229,
         "5-Room": 151
     }
+    expected_count = OrderedDict(sorted(expected_count.items()))
 
     s = requests.Session()
     # Need to make an initial request to grab the cookies
@@ -179,6 +182,7 @@ if __name__ == "__main__":
     stats = {}
     all_units = []
     timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    print("[{}] Start".format(datetime.now()))
     for block, flat_types in blocks_and_flat_types.items():
         stats[block] = {}
         contract = contracts[block]
@@ -186,9 +190,8 @@ if __name__ == "__main__":
         for flat_type in flat_types:
             payload = new_payload(block, flat_type, contract)
 
-            print("Fetching {} {}".format(block, flat_type))
             units = fetch_and_parse(s, url, payload)
-            print("\tFound {} units".format(len(units)))
+            print("[{}] {} {}: Found {} units".format(datetime.now(), block, flat_type, len(units)))
 
             stats[block][flat_type] = len(units)
 
@@ -204,3 +207,5 @@ if __name__ == "__main__":
     write_json("data/bidadari.json", all_units)
     write_csv("data/bidadari.csv", all_units)
     write_stats("data/bidadari.log", all_units, stats, expected_count)
+    print("[{}] End".format(datetime.now()))
+    print("======================================\n")
