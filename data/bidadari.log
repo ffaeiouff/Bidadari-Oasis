@@ -1,0 +1,13 @@
+Time: 2016-03-05 04:03:14
+###OK###
+Health check
+	Retrieved: (('2-Room Flexi (Short Lease/99-Year Lease)', 192), ('3-Room', 567), ('4-Room', 1229), ('5-Room', 151))
+	Expected: (('2-Room Flexi (Short Lease/99-Year Lease)', 192), ('3-Room', 567), ('4-Room', 1229), ('5-Room', 151))
+
+	Data should be healthy
+
+Take up percentage
+	2-Room Flexi (Short Lease/99-Year Lease): 38/192 = 19.79%
+	3-Room: 51/567 = 8.99%
+	4-Room: 71/1229 = 5.78%
+	5-Room: 51/151 = 33.77%
