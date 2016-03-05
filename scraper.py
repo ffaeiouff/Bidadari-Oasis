@@ -58,8 +58,8 @@ def unit_from_soup(soup):
   if soup.find('a'):
       u = soup.find('font')
       unit_no = u.get('id')
-      cost, _, size = u.get('title').replace('\xa0',' ').split('<br/>')
-      return Unit(unit_no, False, cost, size)
+      cost, size = u.get('title').replace('\xa0',' ').replace('<br/>', '\n').split('____________________')
+      return Unit(unit_no, False, cost.strip(), size.strip())
   else:
       unit_no = soup.find('font').text.strip()
       return Unit(unit_no, True)
