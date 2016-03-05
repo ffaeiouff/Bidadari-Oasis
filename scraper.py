@@ -95,43 +95,48 @@ def write_csv(filename, all_units):
         writer.writerow(Unit.row_header())
         writer.writerows(rows)
 
-def write_stats(filename, all_units, stats, expected_count):
-    flat_type_count = {
-        "2-Room Flexi (Short Lease/99-Year Lease)": 0,
-        "3-Room": 0,
-        "4-Room": 0,
-        "5-Room": 0
-    }
-    flat_type_count = OrderedDict(sorted(flat_type_count.items()))
+def flat_stats(flat_type, units):
+    available = len(list(filter(lambda unit: unit.flat_type == flat_type, units)))
+    booked = len(list(filter(lambda unit: unit.flat_type == flat_type and unit.booked, units)))
+    return [booked, available]
 
-    for block, flat_types in stats.items():
-        for flat_type, count in flat_types.items():
-            flat_type_count[flat_type] += count
+def write_stats(filename, all_units, blocks_and_flat_types, expected_count):
+    flat_type_count = OrderedDict()
+
+    flat_types = sorted(expected_count.keys())
 
     with open(filename, 'w') as out:
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         out.write("Time: {}\n".format(timestamp))
 
+        out.write("Health check\n")
+        for flat_type in flat_types:
+            flat_type_count[flat_type] = len(list(filter(lambda unit: unit.flat_type == flat_type, all_units)))
+
         if tuple(flat_type_count.items()) == tuple(expected_count.items()):
             out.write("###OK###\n")
-
-        out.write("Health check\n")
-        out.write("\tRetrieved: {}\n".format(tuple(flat_type_count.items())))
-        out.write("\tExpected: {}\n".format(tuple(expected_count.items())))
-
-        if tuple(flat_type_count.items()) != tuple(expected_count.items()):
-            out.write("\n\tTotal retrieved flats did not match expected count.\n")
-            return
         else:
-            out.write("\n\tData should be healthy\n")
+            out.write("\n\tTotal retrieved flats did not match expected count.\n")
+            out.write("\tRetrieved: {}\n".format(tuple(flat_type_count.items())))
+            out.write("\tExpected: {}\n".format(tuple(expected_count.items())))
+            return
 
-        out.write("\nTake up percentage\n")
-        flat_types = sorted(expected_count.keys())
-
+        out.write("\nCumulative Selected Stats\n")
         for flat_type in flat_types:
-            available = expected_count[flat_type]
-            booked = len(list(filter(lambda unit: unit.flat_type == flat_type and unit.booked, all_units)))
-            out.write("\t{}: {}/{} = {:.2f}%\n".format(flat_type, booked, available, (booked / available)*100))
+            booked, available = flat_stats(flat_type, all_units)
+            out.write("\t{}: {}/{} ({:.2f}%) selected\n".format(flat_type, booked, available, (booked / available)*100))
+
+        out.write("\nPer Block Selected Stats\n")
+        for block, flat_types in blocks_and_flat_types.items():
+            out.write("\t{}\n".format(block))
+            units = list(filter(lambda unit: unit.block == block, all_units))
+
+            for flat_type in flat_types:
+                booked, available = flat_stats(flat_type, units)
+                out.write("\t{}: {}/{} ({:.2f}%) selected\n".format(flat_type, booked, available, (booked / available)*100))
+
+            out.write("\n")
+
 
 if __name__ == "__main__":
     url = "http://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch"
@@ -151,6 +156,8 @@ if __name__ == "__main__":
         "115C": ["3-Room", "4-Room"],
         "118A": ["3-Room", "4-Room"]
     }
+    blocks_and_flat_types = OrderedDict(sorted(blocks_and_flat_types.items()))
+
     contracts = {
         "101A": "C1",
         "102A": "C1",
@@ -179,12 +186,12 @@ if __name__ == "__main__":
     # Need to make an initial request to grab the cookies
     s.get("http://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?Town=Toa%20Payoh&Flat_Type=BTO&DesType=A&ethnic=Y&Flat=4-Room&ViewOption=A&dteBallot=201511&projName=A&brochure=false")
 
-    stats = {}
     all_units = []
+    debug = ""
     timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+
     print("[{}] Start".format(datetime.now()))
     for block, flat_types in blocks_and_flat_types.items():
-        stats[block] = {}
         contract = contracts[block]
 
         for flat_type in flat_types:
@@ -192,8 +199,6 @@ if __name__ == "__main__":
 
             units = fetch_and_parse(s, url, payload)
             print("[{}] {} {}: Found {} units".format(datetime.now(), block, flat_type, len(units)))
-
-            stats[block][flat_type] = len(units)
 
             for i, unit in enumerate(units):
                 unit.update(block, flat_type)
@@ -206,6 +211,6 @@ if __name__ == "__main__":
 
     write_json("data/bidadari.json", all_units)
     write_csv("data/bidadari.csv", all_units)
-    write_stats("data/bidadari.log", all_units, stats, expected_count)
+    write_stats("data/bidadari.log", all_units, blocks_and_flat_types, expected_count)
     print("[{}] End".format(datetime.now()))
     print("======================================\n")
