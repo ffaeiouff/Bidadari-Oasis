@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import OrderedDict
 import requests, time, json, csv, os, random
 
@@ -50,9 +50,6 @@ class Unit:
     def row_header():
         return ['block', 'flat_type', 'unit_no', 'floor', 'stack', 'status', 'size', 'cost']
 
-    def __repr__(self):
-        return json.dumps(OrderedDict(sorted(self.__dict__.items())))
-
 def unit_from_soup(soup):
   # Unbooked
   if soup.find('a'):
@@ -83,8 +80,13 @@ def fetch_and_parse(s, url, payload):
 def write_json(filename, all_units):
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
+    unit_json = {
+        "timestamp": datetime.now(timezone.utc).astimezone().isoformat(),
+        "units": all_units
+    }
+
     with open(filename, 'w') as out:
-        out.write(str(all_units))
+        out.write(json.dumps(unit_json, default=lambda obj: OrderedDict(sorted(obj.__dict__.items()))))
 
 def write_csv(filename, all_units):
     os.makedirs(os.path.dirname(filename), exist_ok=True)

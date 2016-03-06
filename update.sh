@@ -15,7 +15,7 @@ cat data/bidadari.log
 # If data scrape is ok
 if grep --quiet "^###OK###$" data/bidadari.log; then
     # If there is any changes to the data scraped
-    if [[ $(git diff data/bidadari.csv data/bidadari.json) ]]; then
+    if [[ $(git diff data/bidadari.csv) ]]; then
         git add data/
         git commit -m "Updated data on `date`"
         if [ "$LIVE" = "true" ]; then
