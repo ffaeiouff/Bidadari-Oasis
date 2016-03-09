@@ -1205,7 +1205,7 @@ $223,100 - 99 Years"
 102A,4-Room,#11-193,11,193,booked,,
 102A,4-Room,#12-193,12,193,booked,,
 102A,4-Room,#13-193,13,193,available,97 Sqm,"$528,100"
-102A,4-Room,#14-193,14,193,available,97 Sqm,"$529,500"
+102A,4-Room,#14-193,14,193,booked,,
 102A,4-Room,#15-193,15,193,booked,,
 102A,4-Room,#16-193,16,193,booked,,
 102A,4-Room,#02-195,02,195,available,97 Sqm,"$487,900"
@@ -2534,7 +2534,7 @@ $219,500 - 99 Years"
 106A,5-Room,#14-24,14,24,available,113 Sqm,"$610,600"
 106A,5-Room,#15-24,15,24,available,113 Sqm,"$612,200"
 106A,5-Room,#16-24,16,24,available,113 Sqm,"$613,800"
-106A,5-Room,#17-24,17,24,available,113 Sqm,"$613,800"
+106A,5-Room,#17-24,17,24,booked,,
 106B,4-Room,#02-58,02,58,available,94 Sqm,"$453,100"
 106B,4-Room,#03-58,03,58,available,94 Sqm,"$457,600"
 106B,4-Room,#04-58,04,58,available,94 Sqm,"$462,100"
@@ -2840,13 +2840,13 @@ $219,500 - 99 Years"
 118A,3-Room,#07-59,07,59,available,72 Sqm,"$367,900"
 118A,3-Room,#08-59,08,59,available,72 Sqm,"$370,400"
 118A,3-Room,#09-59,09,59,available,72 Sqm,"$371,400"
-118A,3-Room,#10-59,10,59,available,72 Sqm,"$372,400"
+118A,3-Room,#10-59,10,59,booked,,
 118A,3-Room,#11-59,11,59,booked,,
 118A,3-Room,#12-59,12,59,available,72 Sqm,"$381,000"
 118A,3-Room,#13-59,13,59,available,72 Sqm,"$382,000"
 118A,3-Room,#14-59,14,59,available,72 Sqm,"$383,000"
 118A,3-Room,#15-59,15,59,booked,,
-118A,3-Room,#16-59,16,59,available,72 Sqm,"$385,000"
+118A,3-Room,#16-59,16,59,booked,,
 118A,3-Room,#17-59,17,59,booked,,
 118A,3-Room,#01-75,01,75,available,68 Sqm,"$324,000"
 118A,3-Room,#02-75,02,75,available,68 Sqm,"$327,200"
@@ -2943,7 +2943,7 @@ $219,500 - 99 Years"
 118A,4-Room,#14-57,14,57,available,97 Sqm,"$547,100"
 118A,4-Room,#15-57,15,57,booked,,
 118A,4-Room,#16-57,16,57,available,97 Sqm,"$549,900"
-118A,4-Room,#17-57,17,57,available,97 Sqm,"$549,900"
+118A,4-Room,#17-57,17,57,booked,,
 118A,4-Room,#01-61,01,61,available,93 Sqm,"$461,400"
 118A,4-Room,#02-61,02,61,available,93 Sqm,"$465,900"
 118A,4-Room,#03-61,03,61,available,93 Sqm,"$470,400"
