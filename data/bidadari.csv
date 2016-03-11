@@ -1147,7 +1147,7 @@ $223,100 - 99 Years"
 102A,4-Room,#10-191,10,191,booked,,
 102A,4-Room,#11-191,11,191,available,97 Sqm,"$516,100"
 102A,4-Room,#12-191,12,191,booked,,
-102A,4-Room,#13-191,13,191,available,97 Sqm,"$518,900"
+102A,4-Room,#13-191,13,191,booked,,
 102A,4-Room,#14-191,14,191,available,97 Sqm,"$520,300"
 102A,4-Room,#15-191,15,191,available,97 Sqm,"$521,700"
 102A,4-Room,#16-191,16,191,available,97 Sqm,"$521,700"
@@ -1604,7 +1604,7 @@ $223,100 - 99 Years"
 103B,3-Room,#11-55,11,55,available,68 Sqm,"$349,600"
 103B,3-Room,#12-55,12,55,available,68 Sqm,"$350,600"
 103B,3-Room,#13-55,13,55,available,68 Sqm,"$351,600"
-103B,3-Room,#14-55,14,55,available,68 Sqm,"$351,600"
+103B,3-Room,#14-55,14,55,booked,,
 103B,3-Room,#03-59,03,59,available,68 Sqm,"$317,900"
 103B,3-Room,#04-59,04,59,available,68 Sqm,"$327,000"
 103B,3-Room,#05-59,05,59,available,68 Sqm,"$333,000"
@@ -2468,7 +2468,7 @@ $219,500 - 99 Years"
 106A,5-Room,#05-22,05,22,available,113 Sqm,"$587,500"
 106A,5-Room,#06-22,06,22,available,113 Sqm,"$592,000"
 106A,5-Room,#07-22,07,22,available,113 Sqm,"$596,500"
-106A,5-Room,#08-22,08,22,available,113 Sqm,"$601,000"
+106A,5-Room,#08-22,08,22,booked,,
 106A,5-Room,#09-22,09,22,booked,,
 106A,5-Room,#10-22,10,22,available,113 Sqm,"$604,200"
 106A,5-Room,#11-22,11,22,booked,,
@@ -2566,7 +2566,7 @@ $219,500 - 99 Years"
 106B,5-Room,#17-66,17,66,booked,,
 106B,5-Room,#02-68,02,68,available,113 Sqm,"$569,500"
 106B,5-Room,#03-68,03,68,available,113 Sqm,"$575,500"
-106B,5-Room,#04-68,04,68,available,113 Sqm,"$581,500"
+106B,5-Room,#04-68,04,68,booked,,
 106B,5-Room,#05-68,05,68,booked,,
 106B,5-Room,#06-68,06,68,booked,,
 106B,5-Room,#07-68,07,68,booked,,
@@ -2898,7 +2898,7 @@ $219,500 - 99 Years"
 118A,4-Room,#11-57,11,57,booked,,
 118A,4-Room,#12-57,12,57,available,97 Sqm,"$544,300"
 118A,4-Room,#13-57,13,57,booked,,
-118A,4-Room,#14-57,14,57,available,97 Sqm,"$547,100"
+118A,4-Room,#14-57,14,57,booked,,
 118A,4-Room,#15-57,15,57,booked,,
 118A,4-Room,#16-57,16,57,booked,,
 118A,4-Room,#17-57,17,57,booked,,
