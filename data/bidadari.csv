@@ -976,14 +976,7 @@ $112,500 - 35 Years
 $119,300 - 40 Years
 $125,100 - 45 Years
 $209,000 - 99 Years"
-102A,2-Room Flexi (Short Lease/99-Year Lease),#05-185,05,185,available,47 Sqm,"$71,800 - 15 Years
-$86,200 - 20 Years
-$98,100 - 25 Years
-$107,800 - 30 Years
-$116,000 - 35 Years
-$123,000 - 40 Years
-$128,900 - 45 Years
-$215,500 - 99 Years"
+102A,2-Room Flexi (Short Lease/99-Year Lease),#05-185,05,185,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#06-185,06,185,available,47 Sqm,"$72,500 - 15 Years
 $87,000 - 20 Years
 $99,000 - 25 Years
@@ -2204,7 +2197,7 @@ $219,500 - 99 Years"
 105A,5-Room,#09-34,09,34,available,113 Sqm,"$592,100"
 105A,5-Room,#10-34,10,34,booked,,
 105A,5-Room,#11-34,11,34,available,113 Sqm,"$595,300"
-105A,5-Room,#12-34,12,34,available,113 Sqm,"$596,900"
+105A,5-Room,#12-34,12,34,booked,,
 105A,5-Room,#13-34,13,34,booked,,
 105A,5-Room,#14-34,14,34,booked,,
 105A,5-Room,#15-34,15,34,booked,,
@@ -2664,7 +2657,7 @@ $219,500 - 99 Years"
 115C,4-Room,#06-41,06,41,available,97 Sqm,"$522,300"
 115C,4-Room,#07-41,07,41,available,97 Sqm,"$525,800"
 115C,4-Room,#08-41,08,41,available,97 Sqm,"$529,300"
-115C,4-Room,#09-41,09,41,available,97 Sqm,"$530,700"
+115C,4-Room,#09-41,09,41,booked,,
 115C,4-Room,#10-41,10,41,booked,,
 115C,4-Room,#11-41,11,41,available,97 Sqm,"$538,200"
 115C,4-Room,#12-41,12,41,booked,,
@@ -2675,7 +2668,7 @@ $219,500 - 99 Years"
 115C,4-Room,#17-41,17,41,booked,,
 115C,4-Room,#06-43,06,43,available,97 Sqm,"$522,300"
 115C,4-Room,#07-43,07,43,available,97 Sqm,"$525,800"
-115C,4-Room,#08-43,08,43,available,97 Sqm,"$529,300"
+115C,4-Room,#08-43,08,43,booked,,
 115C,4-Room,#09-43,09,43,booked,,
 115C,4-Room,#10-43,10,43,booked,,
 115C,4-Room,#11-43,11,43,booked,,
@@ -2731,7 +2724,7 @@ $219,500 - 99 Years"
 118A,3-Room,#03-59,03,59,available,72 Sqm,"$343,800"
 118A,3-Room,#04-59,04,59,available,72 Sqm,"$346,800"
 118A,3-Room,#05-59,05,59,available,72 Sqm,"$359,600"
-118A,3-Room,#06-59,06,59,available,72 Sqm,"$365,400"
+118A,3-Room,#06-59,06,59,booked,,
 118A,3-Room,#07-59,07,59,booked,,
 118A,3-Room,#08-59,08,59,booked,,
 118A,3-Room,#09-59,09,59,booked,,
