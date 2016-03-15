@@ -977,14 +977,7 @@ $119,300 - 40 Years
 $125,100 - 45 Years
 $209,000 - 99 Years"
 102A,2-Room Flexi (Short Lease/99-Year Lease),#05-185,05,185,booked,,
-102A,2-Room Flexi (Short Lease/99-Year Lease),#06-185,06,185,available,47 Sqm,"$72,500 - 15 Years
-$87,000 - 20 Years
-$99,000 - 25 Years
-$108,800 - 30 Years
-$117,100 - 35 Years
-$124,200 - 40 Years
-$130,100 - 45 Years
-$217,500 - 99 Years"
+102A,2-Room Flexi (Short Lease/99-Year Lease),#06-185,06,185,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#07-185,07,185,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#08-185,08,185,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#09-185,09,185,booked,,
@@ -1123,7 +1116,7 @@ $219,500 - 99 Years"
 102A,4-Room,#04-197,04,197,available,97 Sqm,"$496,900"
 102A,4-Room,#05-197,05,197,available,97 Sqm,"$501,400"
 102A,4-Room,#06-197,06,197,available,97 Sqm,"$509,500"
-102A,4-Room,#07-197,07,197,available,97 Sqm,"$517,600"
+102A,4-Room,#07-197,07,197,booked,,
 102A,4-Room,#08-197,08,197,available,97 Sqm,"$521,100"
 102A,4-Room,#09-197,09,197,available,97 Sqm,"$522,500"
 102A,4-Room,#10-197,10,197,available,97 Sqm,"$523,900"
@@ -2414,7 +2407,7 @@ $219,500 - 99 Years"
 106A,5-Room,#06-24,06,24,available,113 Sqm,"$592,000"
 106A,5-Room,#07-24,07,24,available,113 Sqm,"$596,500"
 106A,5-Room,#08-24,08,24,available,113 Sqm,"$601,000"
-106A,5-Room,#09-24,09,24,available,113 Sqm,"$602,600"
+106A,5-Room,#09-24,09,24,booked,,
 106A,5-Room,#10-24,10,24,booked,,
 106A,5-Room,#11-24,11,24,booked,,
 106A,5-Room,#12-24,12,24,booked,,
@@ -2618,7 +2611,7 @@ $219,500 - 99 Years"
 115C,3-Room,#15-37,15,37,available,68 Sqm,"$356,900"
 115C,3-Room,#16-37,16,37,booked,,
 115C,3-Room,#17-37,17,37,available,68 Sqm,"$357,900"
-115C,3-Room,#06-39,06,39,available,71 Sqm,"$365,400"
+115C,3-Room,#06-39,06,39,booked,,
 115C,3-Room,#07-39,07,39,booked,,
 115C,3-Room,#08-39,08,39,booked,,
 115C,3-Room,#09-39,09,39,booked,,
@@ -2667,7 +2660,7 @@ $219,500 - 99 Years"
 115C,4-Room,#16-41,16,41,booked,,
 115C,4-Room,#17-41,17,41,booked,,
 115C,4-Room,#06-43,06,43,available,97 Sqm,"$522,300"
-115C,4-Room,#07-43,07,43,available,97 Sqm,"$525,800"
+115C,4-Room,#07-43,07,43,booked,,
 115C,4-Room,#08-43,08,43,booked,,
 115C,4-Room,#09-43,09,43,booked,,
 115C,4-Room,#10-43,10,43,booked,,
