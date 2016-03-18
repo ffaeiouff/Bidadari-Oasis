@@ -363,14 +363,7 @@ $115,500 - 35 Years
 $122,400 - 40 Years
 $128,300 - 45 Years
 $214,500 - 99 Years"
-101A,2-Room Flexi (Short Lease/99-Year Lease),#04-161,04,161,available,47 Sqm,"$72,300 - 15 Years
-$86,800 - 20 Years
-$98,700 - 25 Years
-$108,500 - 30 Years
-$116,800 - 35 Years
-$123,900 - 40 Years
-$129,800 - 45 Years
-$217,000 - 99 Years"
+101A,2-Room Flexi (Short Lease/99-Year Lease),#04-161,04,161,booked,,
 101A,2-Room Flexi (Short Lease/99-Year Lease),#05-161,05,161,available,47 Sqm,"$73,200 - 15 Years
 $87,800 - 20 Years
 $99,900 - 25 Years
@@ -874,14 +867,7 @@ $188,200 - 99 Years"
 102A,2-Room Flexi (Short Lease/99-Year Lease),#13-181,13,181,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#14-181,14,181,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#04-183,04,183,booked,,
-102A,2-Room Flexi (Short Lease/99-Year Lease),#05-183,05,183,available,38 Sqm,"$57,300 - 15 Years
-$68,700 - 20 Years
-$78,200 - 25 Years
-$85,900 - 30 Years
-$92,500 - 35 Years
-$98,100 - 40 Years
-$102,800 - 45 Years
-$171,800 - 99 Years"
+102A,2-Room Flexi (Short Lease/99-Year Lease),#05-183,05,183,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#06-183,06,183,available,38 Sqm,"$57,900 - 15 Years
 $69,500 - 20 Years
 $79,100 - 25 Years
@@ -1022,7 +1008,7 @@ $209,000 - 99 Years"
 102A,4-Room,#13-189,13,189,available,97 Sqm,"$509,700"
 102A,4-Room,#14-189,14,189,booked,,
 102A,4-Room,#15-189,15,189,available,97 Sqm,"$512,500"
-102A,4-Room,#16-189,16,189,available,97 Sqm,"$512,500"
+102A,4-Room,#16-189,16,189,booked,,
 102A,4-Room,#01-191,01,191,available,93 Sqm,"$440,900"
 102A,4-Room,#02-191,02,191,available,97 Sqm,"$478,700"
 102A,4-Room,#03-191,03,191,available,97 Sqm,"$483,200"
@@ -2148,7 +2134,7 @@ $219,500 - 99 Years"
 105A,5-Room,#16-34,16,34,booked,,
 105A,5-Room,#17-34,17,34,booked,,
 105A,5-Room,#03-36,03,36,available,113 Sqm,"$565,000"
-105A,5-Room,#04-36,04,36,available,113 Sqm,"$571,000"
+105A,5-Room,#04-36,04,36,booked,,
 105A,5-Room,#05-36,05,36,booked,,
 105A,5-Room,#06-36,06,36,booked,,
 105A,5-Room,#07-36,07,36,booked,,
