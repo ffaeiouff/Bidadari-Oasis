@@ -9,6 +9,6 @@ RUN apk add --update python3 tzdata && \
     mkdir hdb_scraper
 
 WORKDIR /app
-ADD . /app
+ADD scraper.py /app
 
 CMD ["python3", "-u", "scraper.py"]
