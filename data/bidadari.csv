@@ -1005,7 +1005,7 @@ $209,000 - 99 Years"
 102A,4-Room,#10-189,10,189,booked,,
 102A,4-Room,#11-189,11,189,available,97 Sqm,"$506,900"
 102A,4-Room,#12-189,12,189,available,97 Sqm,"$508,300"
-102A,4-Room,#13-189,13,189,available,97 Sqm,"$509,700"
+102A,4-Room,#13-189,13,189,booked,,
 102A,4-Room,#14-189,14,189,booked,,
 102A,4-Room,#15-189,15,189,booked,,
 102A,4-Room,#16-189,16,189,booked,,
@@ -1069,7 +1069,7 @@ $209,000 - 99 Years"
 102A,4-Room,#13-197,13,197,available,97 Sqm,"$528,100"
 102A,4-Room,#14-197,14,197,available,97 Sqm,"$529,500"
 102A,4-Room,#15-197,15,197,available,97 Sqm,"$530,900"
-102A,4-Room,#16-197,16,197,available,97 Sqm,"$530,900"
+102A,4-Room,#16-197,16,197,booked,,
 102A,4-Room,#02-199,02,199,available,93 Sqm,"$449,500"
 102A,4-Room,#03-199,03,199,available,93 Sqm,"$454,000"
 102A,4-Room,#04-199,04,199,available,93 Sqm,"$467,300"
@@ -1190,7 +1190,7 @@ $209,000 - 99 Years"
 102B,4-Room,#10-211,10,211,available,93 Sqm,"$507,100"
 102B,4-Room,#11-211,11,211,available,93 Sqm,"$508,500"
 102B,4-Room,#12-211,12,211,booked,,
-102B,4-Room,#13-211,13,211,available,93 Sqm,"$511,300"
+102B,4-Room,#13-211,13,211,booked,,
 102B,4-Room,#14-211,14,211,booked,,
 102B,4-Room,#15-211,15,211,available,93 Sqm,"$514,100"
 102B,4-Room,#16-211,16,211,available,93 Sqm,"$514,100"
@@ -2101,7 +2101,7 @@ $219,500 - 99 Years"
 105A,4-Room,#13-38,13,38,available,94 Sqm,"$501,100"
 105A,4-Room,#14-38,14,38,available,94 Sqm,"$502,500"
 105A,4-Room,#15-38,15,38,available,94 Sqm,"$503,900"
-105A,4-Room,#16-38,16,38,available,94 Sqm,"$505,300"
+105A,4-Room,#16-38,16,38,booked,,
 105A,4-Room,#17-38,17,38,available,94 Sqm,"$505,300"
 105A,4-Room,#03-40,03,40,available,94 Sqm,"$457,600"
 105A,4-Room,#04-40,04,40,available,94 Sqm,"$462,100"
@@ -2204,7 +2204,7 @@ $219,500 - 99 Years"
 105B,4-Room,#11-52,11,52,available,94 Sqm,"$498,300"
 105B,4-Room,#12-52,12,52,available,94 Sqm,"$499,700"
 105B,4-Room,#13-52,13,52,booked,,
-105B,4-Room,#14-52,14,52,available,94 Sqm,"$502,500"
+105B,4-Room,#14-52,14,52,booked,,
 105B,4-Room,#15-52,15,52,booked,,
 105B,4-Room,#16-52,16,52,booked,,
 105B,4-Room,#17-52,17,52,booked,,
