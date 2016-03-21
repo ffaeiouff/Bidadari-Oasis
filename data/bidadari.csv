@@ -799,14 +799,7 @@ $100,500 - 35 Years
 $106,500 - 40 Years
 $111,600 - 45 Years
 $186,600 - 99 Years"
-102A,2-Room Flexi (Short Lease/99-Year Lease),#12-177,12,177,available,38 Sqm,"$62,500 - 15 Years
-$75,000 - 20 Years
-$85,300 - 25 Years
-$93,700 - 30 Years
-$100,900 - 35 Years
-$107,000 - 40 Years
-$112,100 - 45 Years
-$187,400 - 99 Years"
+102A,2-Room Flexi (Short Lease/99-Year Lease),#12-177,12,177,booked,,
 102A,2-Room Flexi (Short Lease/99-Year Lease),#13-177,13,177,available,38 Sqm,"$62,700 - 15 Years
 $75,300 - 20 Years
 $85,600 - 25 Years
@@ -2125,7 +2118,7 @@ $219,500 - 99 Years"
 105A,5-Room,#04-42,04,42,available,114 Sqm,"$555,200"
 105A,5-Room,#05-42,05,42,available,114 Sqm,"$561,200"
 105A,5-Room,#06-42,06,42,available,114 Sqm,"$565,700"
-105A,5-Room,#07-42,07,42,available,114 Sqm,"$565,700"
+105A,5-Room,#07-42,07,42,booked,,
 105B,4-Room,#04-46,04,46,available,94 Sqm,"$462,100"
 105B,4-Room,#05-46,05,46,available,94 Sqm,"$475,100"
 105B,4-Room,#06-46,06,46,available,94 Sqm,"$478,600"
@@ -2188,7 +2181,7 @@ $219,500 - 99 Years"
 105B,5-Room,#07-44,07,44,available,114 Sqm,"$565,700"
 105B,5-Room,#02-54,02,54,available,114 Sqm,"$559,000"
 105B,5-Room,#03-54,03,54,available,114 Sqm,"$565,000"
-105B,5-Room,#04-54,04,54,available,114 Sqm,"$571,000"
+105B,5-Room,#04-54,04,54,booked,,
 105B,5-Room,#05-54,05,54,booked,,
 105B,5-Room,#06-54,06,54,booked,,
 105B,5-Room,#07-54,07,54,booked,,
@@ -2348,7 +2341,7 @@ $219,500 - 99 Years"
 106B,4-Room,#09-60,09,60,available,94 Sqm,"$495,500"
 106B,4-Room,#10-60,10,60,booked,,
 106B,4-Room,#11-60,11,60,booked,,
-106B,4-Room,#12-60,12,60,available,94 Sqm,"$499,700"
+106B,4-Room,#12-60,12,60,booked,,
 106B,4-Room,#13-60,13,60,available,94 Sqm,"$501,100"
 106B,4-Room,#14-60,14,60,available,94 Sqm,"$502,500"
 106B,4-Room,#15-60,15,60,booked,,
@@ -2519,7 +2512,7 @@ $219,500 - 99 Years"
 115C,3-Room,#14-37,14,37,available,68 Sqm,"$355,900"
 115C,3-Room,#15-37,15,37,available,68 Sqm,"$356,900"
 115C,3-Room,#16-37,16,37,booked,,
-115C,3-Room,#17-37,17,37,available,68 Sqm,"$357,900"
+115C,3-Room,#17-37,17,37,booked,,
 115C,3-Room,#06-39,06,39,booked,,
 115C,3-Room,#07-39,07,39,booked,,
 115C,3-Room,#08-39,08,39,booked,,
