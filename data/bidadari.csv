@@ -597,7 +597,7 @@ $170,300 - 99 Years"
 101A,4-Room,#08-151,08,151,available,93 Sqm,"$495,600"
 101A,4-Room,#09-151,09,151,available,93 Sqm,"$497,000"
 101A,4-Room,#10-151,10,151,available,93 Sqm,"$498,400"
-101A,4-Room,#11-151,11,151,available,93 Sqm,"$499,800"
+101A,4-Room,#11-151,11,151,booked,,
 101A,4-Room,#12-151,12,151,booked,,
 101A,4-Room,#13-151,13,151,available,93 Sqm,"$502,600"
 101A,4-Room,#14-151,14,151,available,93 Sqm,"$504,000"
@@ -1491,14 +1491,7 @@ $113,600 - 35 Years
 $120,400 - 40 Years
 $126,200 - 45 Years
 $211,000 - 99 Years"
-104A,2-Room Flexi (Short Lease/99-Year Lease),#05-107,05,107,available,47 Sqm,"$71,200 - 15 Years
-$85,400 - 20 Years
-$97,100 - 25 Years
-$106,800 - 30 Years
-$114,900 - 35 Years
-$121,900 - 40 Years
-$127,700 - 45 Years
-$213,500 - 99 Years"
+104A,2-Room Flexi (Short Lease/99-Year Lease),#05-107,05,107,booked,,
 104A,2-Room Flexi (Short Lease/99-Year Lease),#06-107,06,107,booked,,
 104A,2-Room Flexi (Short Lease/99-Year Lease),#01-109,01,109,available,38 Sqm,"$51,700 - 15 Years
 $62,000 - 20 Years
