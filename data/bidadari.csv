@@ -201,14 +201,7 @@ $94,200 - 35 Years
 $99,900 - 40 Years
 $104,700 - 45 Years
 $175,000 - 99 Years"
-101A,2-Room Flexi (Short Lease/99-Year Lease),#06-145,06,145,available,38 Sqm,"$58,300 - 15 Years
-$70,000 - 20 Years
-$79,600 - 25 Years
-$87,500 - 30 Years
-$94,200 - 35 Years
-$99,900 - 40 Years
-$104,700 - 45 Years
-$175,000 - 99 Years"
+101A,2-Room Flexi (Short Lease/99-Year Lease),#06-145,06,145,booked,,
 101A,2-Room Flexi (Short Lease/99-Year Lease),#01-157,01,157,booked,,
 101A,2-Room Flexi (Short Lease/99-Year Lease),#02-157,02,157,available,38 Sqm,"$54,800 - 15 Years
 $65,700 - 20 Years
@@ -614,7 +607,7 @@ $170,300 - 99 Years"
 101A,4-Room,#11-153,11,153,available,93 Sqm,"$499,800"
 101A,4-Room,#12-153,12,153,available,93 Sqm,"$501,200"
 101A,4-Room,#13-153,13,153,available,93 Sqm,"$502,600"
-101A,4-Room,#14-153,14,153,available,93 Sqm,"$504,000"
+101A,4-Room,#14-153,14,153,booked,,
 101A,4-Room,#15-153,15,153,booked,,
 101A,4-Room,#16-153,16,153,booked,,
 101A,4-Room,#04-155,04,155,available,93 Sqm,"$484,900"
@@ -1566,14 +1559,7 @@ $94,200 - 35 Years
 $99,900 - 40 Years
 $104,700 - 45 Years
 $175,000 - 99 Years"
-104A,2-Room Flexi (Short Lease/99-Year Lease),#03-97,03,97,available,47 Sqm,"$70,200 - 15 Years
-$84,200 - 20 Years
-$95,800 - 25 Years
-$105,300 - 30 Years
-$113,300 - 35 Years
-$120,200 - 40 Years
-$125,900 - 45 Years
-$210,500 - 99 Years"
+104A,2-Room Flexi (Short Lease/99-Year Lease),#03-97,03,97,booked,,
 104A,2-Room Flexi (Short Lease/99-Year Lease),#04-97,04,97,booked,,
 104A,2-Room Flexi (Short Lease/99-Year Lease),#05-97,05,97,booked,,
 104A,2-Room Flexi (Short Lease/99-Year Lease),#06-97,06,97,booked,,
@@ -2429,7 +2415,7 @@ $210,500 - 99 Years"
 118A,3-Room,#13-75,13,75,available,68 Sqm,"$348,700"
 118A,3-Room,#14-75,14,75,available,68 Sqm,"$349,700"
 118A,3-Room,#15-75,15,75,booked,,
-118A,3-Room,#16-75,16,75,available,68 Sqm,"$351,700"
+118A,3-Room,#16-75,16,75,booked,,
 118A,3-Room,#17-75,17,75,booked,,
 118A,3-Room,#01-81,01,81,available,68 Sqm,"$317,800"
 118A,3-Room,#02-81,02,81,available,68 Sqm,"$327,200"
