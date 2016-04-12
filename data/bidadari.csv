@@ -379,7 +379,7 @@ $170,300 - 99 Years"
 101A,3-Room,#08-147,08,147,available,68 Sqm,"$340,400"
 101A,3-Room,#09-147,09,147,booked,,
 101A,3-Room,#10-147,10,147,available,68 Sqm,"$342,400"
-101A,3-Room,#11-147,11,147,available,68 Sqm,"$343,400"
+101A,3-Room,#11-147,11,147,booked,,
 101A,3-Room,#12-147,12,147,available,68 Sqm,"$344,400"
 101A,3-Room,#13-147,13,147,booked,,
 101A,3-Room,#14-147,14,147,available,68 Sqm,"$346,400"
@@ -482,7 +482,7 @@ $170,300 - 99 Years"
 101A,4-Room,#05-151,05,151,available,93 Sqm,"$476,200"
 101A,4-Room,#06-151,06,151,available,93 Sqm,"$479,700"
 101A,4-Room,#07-151,07,151,available,93 Sqm,"$492,100"
-101A,4-Room,#08-151,08,151,available,93 Sqm,"$495,600"
+101A,4-Room,#08-151,08,151,booked,,
 101A,4-Room,#09-151,09,151,booked,,
 101A,4-Room,#10-151,10,151,booked,,
 101A,4-Room,#11-151,11,151,booked,,
@@ -1869,7 +1869,7 @@ $175,000 - 99 Years"
 106A,4-Room,#10-32,10,32,available,94 Sqm,"$496,900"
 106A,4-Room,#11-32,11,32,available,94 Sqm,"$498,300"
 106A,4-Room,#12-32,12,32,booked,,
-106A,4-Room,#13-32,13,32,available,94 Sqm,"$501,100"
+106A,4-Room,#13-32,13,32,booked,,
 106A,4-Room,#14-32,14,32,booked,,
 106A,4-Room,#15-32,15,32,booked,,
 106A,4-Room,#16-32,16,32,booked,,
@@ -2144,7 +2144,7 @@ $175,000 - 99 Years"
 115C,3-Room,#09-47,09,47,available,68 Sqm,"$350,900"
 115C,3-Room,#10-47,10,47,available,68 Sqm,"$351,900"
 115C,3-Room,#11-47,11,47,available,68 Sqm,"$352,900"
-115C,3-Room,#12-47,12,47,available,68 Sqm,"$353,900"
+115C,3-Room,#12-47,12,47,booked,,
 115C,3-Room,#13-47,13,47,available,68 Sqm,"$354,900"
 115C,3-Room,#14-47,14,47,available,68 Sqm,"$355,900"
 115C,3-Room,#15-47,15,47,booked,,
@@ -2516,7 +2516,7 @@ $175,000 - 99 Years"
 118A,4-Room,#11-89,11,89,available,93 Sqm,"$503,100"
 118A,4-Room,#12-89,12,89,available,93 Sqm,"$504,500"
 118A,4-Room,#13-89,13,89,available,93 Sqm,"$505,900"
-118A,4-Room,#14-89,14,89,available,93 Sqm,"$507,300"
+118A,4-Room,#14-89,14,89,booked,,
 118A,4-Room,#15-89,15,89,booked,,
 118A,4-Room,#16-89,16,89,booked,,
 118A,4-Room,#17-89,17,89,booked,,
