@@ -143,14 +143,7 @@ $88,400 - 35 Years
 $93,800 - 40 Years
 $98,300 - 45 Years
 $164,300 - 99 Years"
-101A,2-Room Flexi (Short Lease/99-Year Lease),#03-163,03,163,available,38 Sqm,"$56,700 - 15 Years
-$68,000 - 20 Years
-$77,400 - 25 Years
-$85,000 - 30 Years
-$91,500 - 35 Years
-$97,000 - 40 Years
-$101,700 - 45 Years
-$170,000 - 99 Years"
+101A,2-Room Flexi (Short Lease/99-Year Lease),#03-163,03,163,booked,,
 101A,2-Room Flexi (Short Lease/99-Year Lease),#04-163,04,163,available,38 Sqm,"$57,500 - 15 Years
 $69,000 - 20 Years
 $78,500 - 25 Years
@@ -563,7 +556,7 @@ $178,600 - 99 Years"
 102A,4-Room,#05-173,05,173,available,93 Sqm,"$485,000"
 102A,4-Room,#06-173,06,173,booked,,
 102A,4-Room,#07-173,07,173,available,93 Sqm,"$492,000"
-102A,4-Room,#08-173,08,173,available,93 Sqm,"$495,500"
+102A,4-Room,#08-173,08,173,booked,,
 102A,4-Room,#09-173,09,173,booked,,
 102A,4-Room,#10-173,10,173,available,93 Sqm,"$498,300"
 102A,4-Room,#11-173,11,173,booked,,
@@ -995,7 +988,7 @@ $178,600 - 99 Years"
 103A,4-Room,#14-29,14,29,booked,,
 103A,4-Room,#15-29,15,29,booked,,
 103A,4-Room,#16-29,16,29,booked,,
-103A,4-Room,#17-29,17,29,available,93 Sqm,"$506,700"
+103A,4-Room,#17-29,17,29,booked,,
 103A,4-Room,#03-31,03,31,available,93 Sqm,"$476,000"
 103A,4-Room,#04-31,04,31,available,93 Sqm,"$480,500"
 103A,4-Room,#05-31,05,31,available,93 Sqm,"$485,000"
@@ -1515,7 +1508,7 @@ $172,500 - 99 Years"
 105A,4-Room,#07-40,07,40,available,94 Sqm,"$486,400"
 105A,4-Room,#08-40,08,40,available,94 Sqm,"$494,100"
 105A,4-Room,#09-40,09,40,available,94 Sqm,"$495,500"
-105A,4-Room,#10-40,10,40,available,94 Sqm,"$496,900"
+105A,4-Room,#10-40,10,40,booked,,
 105A,4-Room,#11-40,11,40,booked,,
 105A,4-Room,#12-40,12,40,booked,,
 105A,4-Room,#13-40,13,40,booked,,
@@ -1981,7 +1974,7 @@ $172,500 - 99 Years"
 115C,3-Room,#07-47,07,47,available,68 Sqm,"$347,400"
 115C,3-Room,#08-47,08,47,booked,,
 115C,3-Room,#09-47,09,47,available,68 Sqm,"$350,900"
-115C,3-Room,#10-47,10,47,available,68 Sqm,"$351,900"
+115C,3-Room,#10-47,10,47,booked,,
 115C,3-Room,#11-47,11,47,booked,,
 115C,3-Room,#12-47,12,47,booked,,
 115C,3-Room,#13-47,13,47,booked,,
