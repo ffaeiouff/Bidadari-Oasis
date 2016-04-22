@@ -888,7 +888,7 @@ $178,600 - 99 Years"
 103A,3-Room,#09-33,09,33,available,68 Sqm,"$341,500"
 103A,3-Room,#10-33,10,33,available,68 Sqm,"$342,500"
 103A,3-Room,#11-33,11,33,available,68 Sqm,"$343,500"
-103A,3-Room,#12-33,12,33,available,68 Sqm,"$344,500"
+103A,3-Room,#12-33,12,33,booked,,
 103A,3-Room,#13-33,13,33,booked,,
 103A,3-Room,#14-33,14,33,booked,,
 103A,3-Room,#15-33,15,33,booked,,
@@ -1007,7 +1007,7 @@ $178,600 - 99 Years"
 103B,3-Room,#09-49,09,49,booked,,
 103B,3-Room,#10-49,10,49,booked,,
 103B,3-Room,#11-49,11,49,booked,,
-103B,3-Room,#12-49,12,49,available,68 Sqm,"$340,500"
+103B,3-Room,#12-49,12,49,booked,,
 103B,3-Room,#02-51,02,51,available,68 Sqm,"$302,800"
 103B,3-Room,#03-51,03,51,available,68 Sqm,"$317,900"
 103B,3-Room,#04-51,04,51,available,68 Sqm,"$327,000"
@@ -1471,7 +1471,7 @@ $172,500 - 99 Years"
 105A,4-Room,#05-40,05,40,available,94 Sqm,"$475,100"
 105A,4-Room,#06-40,06,40,booked,,
 105A,4-Room,#07-40,07,40,available,94 Sqm,"$486,400"
-105A,4-Room,#08-40,08,40,available,94 Sqm,"$494,100"
+105A,4-Room,#08-40,08,40,booked,,
 105A,4-Room,#09-40,09,40,booked,,
 105A,4-Room,#10-40,10,40,booked,,
 105A,4-Room,#11-40,11,40,booked,,
@@ -1617,7 +1617,7 @@ $172,500 - 99 Years"
 106A,4-Room,#08-26,08,26,available,94 Sqm,"$485,600"
 106A,4-Room,#09-26,09,26,available,94 Sqm,"$487,000"
 106A,4-Room,#10-26,10,26,available,94 Sqm,"$488,400"
-106A,4-Room,#11-26,11,26,available,94 Sqm,"$489,800"
+106A,4-Room,#11-26,11,26,booked,,
 106A,4-Room,#12-26,12,26,booked,,
 106A,4-Room,#13-26,13,26,available,94 Sqm,"$492,600"
 106A,4-Room,#14-26,14,26,available,94 Sqm,"$494,000"
@@ -2000,7 +2000,7 @@ $172,500 - 99 Years"
 118A,3-Room,#03-53,03,53,available,68 Sqm,"$330,200"
 118A,3-Room,#04-53,04,53,available,68 Sqm,"$333,200"
 118A,3-Room,#05-53,05,53,available,68 Sqm,"$336,200"
-118A,3-Room,#06-53,06,53,available,68 Sqm,"$338,700"
+118A,3-Room,#06-53,06,53,booked,,
 118A,3-Room,#07-53,07,53,available,68 Sqm,"$341,200"
 118A,3-Room,#08-53,08,53,available,68 Sqm,"$343,700"
 118A,3-Room,#09-53,09,53,available,68 Sqm,"$344,700"
