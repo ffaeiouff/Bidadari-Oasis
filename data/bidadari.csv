@@ -1063,7 +1063,7 @@ $178,600 - 99 Years"
 103B,4-Room,#10-39,10,39,available,93 Sqm,"$498,300"
 103B,4-Room,#11-39,11,39,available,93 Sqm,"$499,700"
 103B,4-Room,#12-39,12,39,available,93 Sqm,"$501,100"
-103B,4-Room,#13-39,13,39,available,93 Sqm,"$502,500"
+103B,4-Room,#13-39,13,39,booked,,
 103B,4-Room,#14-39,14,39,booked,,
 103B,4-Room,#15-39,15,39,booked,,
 103B,4-Room,#16-39,16,39,booked,,
@@ -1226,7 +1226,7 @@ $172,500 - 99 Years"
 104A,3-Room,#12-71,12,71,booked,,
 104A,3-Room,#13-71,13,71,booked,,
 104A,3-Room,#14-71,14,71,available,68 Sqm,"$340,400"
-104A,3-Room,#15-71,15,71,available,68 Sqm,"$341,400"
+104A,3-Room,#15-71,15,71,booked,,
 104A,3-Room,#16-71,16,71,booked,,
 104A,3-Room,#17-71,17,71,booked,,
 104A,3-Room,#02-73,02,73,available,68 Sqm,"$311,800"
@@ -1375,7 +1375,7 @@ $172,500 - 99 Years"
 104A,4-Room,#12-77,12,77,available,93 Sqm,"$509,900"
 104A,4-Room,#13-77,13,77,available,93 Sqm,"$511,300"
 104A,4-Room,#14-77,14,77,available,93 Sqm,"$512,700"
-104A,4-Room,#15-77,15,77,available,93 Sqm,"$514,100"
+104A,4-Room,#15-77,15,77,booked,,
 104A,4-Room,#16-77,16,77,booked,,
 104A,4-Room,#17-77,17,77,available,93 Sqm,"$515,500"
 104A,4-Room,#05-79,05,79,available,93 Sqm,"$485,000"
@@ -1855,7 +1855,7 @@ $172,500 - 99 Years"
 115A,4-Room,#14-21,14,21,booked,,
 115A,4-Room,#15-21,15,21,available,93 Sqm,"$522,200"
 115A,4-Room,#16-21,16,21,booked,,
-115A,4-Room,#17-21,17,21,available,93 Sqm,"$523,600"
+115A,4-Room,#17-21,17,21,booked,,
 115A,4-Room,#06-23,06,23,available,93 Sqm,"$505,400"
 115A,4-Room,#07-23,07,23,available,93 Sqm,"$508,900"
 115A,4-Room,#08-23,08,23,available,93 Sqm,"$512,400"
@@ -2028,7 +2028,7 @@ $172,500 - 99 Years"
 118A,3-Room,#04-75,04,75,available,68 Sqm,"$333,200"
 118A,3-Room,#05-75,05,75,available,68 Sqm,"$336,200"
 118A,3-Room,#06-75,06,75,available,68 Sqm,"$338,700"
-118A,3-Room,#07-75,07,75,available,68 Sqm,"$341,200"
+118A,3-Room,#07-75,07,75,booked,,
 118A,3-Room,#08-75,08,75,booked,,
 118A,3-Room,#09-75,09,75,available,68 Sqm,"$344,700"
 118A,3-Room,#10-75,10,75,booked,,
