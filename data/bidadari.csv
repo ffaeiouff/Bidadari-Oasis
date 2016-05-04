@@ -1283,7 +1283,7 @@ $172,500 - 99 Years"
 104A,3-Room,#08-87,08,87,booked,,
 104A,3-Room,#09-87,09,87,available,68 Sqm,"$341,400"
 104A,3-Room,#10-87,10,87,booked,,
-104A,3-Room,#11-87,11,87,available,68 Sqm,"$343,400"
+104A,3-Room,#11-87,11,87,booked,,
 104A,3-Room,#12-87,12,87,booked,,
 104A,3-Room,#13-87,13,87,booked,,
 104A,3-Room,#14-87,14,87,booked,,
@@ -1332,7 +1332,7 @@ $172,500 - 99 Years"
 104A,4-Room,#09-65,09,65,available,93 Sqm,"$488,100"
 104A,4-Room,#10-65,10,65,booked,,
 104A,4-Room,#11-65,11,65,booked,,
-104A,4-Room,#12-65,12,65,available,93 Sqm,"$492,300"
+104A,4-Room,#12-65,12,65,booked,,
 104A,4-Room,#13-65,13,65,available,93 Sqm,"$493,700"
 104A,4-Room,#14-65,14,65,available,93 Sqm,"$495,100"
 104A,4-Room,#15-65,15,65,booked,,
@@ -1757,7 +1757,7 @@ $172,500 - 99 Years"
 106B,4-Room,#08-64,08,64,available,94 Sqm,"$489,900"
 106B,4-Room,#09-64,09,64,booked,,
 106B,4-Room,#10-64,10,64,booked,,
-106B,4-Room,#11-64,11,64,available,94 Sqm,"$498,300"
+106B,4-Room,#11-64,11,64,booked,,
 106B,4-Room,#12-64,12,64,booked,,
 106B,4-Room,#13-64,13,64,booked,,
 106B,4-Room,#14-64,14,64,booked,,
@@ -1969,7 +1969,7 @@ $172,500 - 99 Years"
 115C,4-Room,#08-49,08,49,booked,,
 115C,4-Room,#09-49,09,49,available,93 Sqm,"$513,800"
 115C,4-Room,#10-49,10,49,available,93 Sqm,"$515,200"
-115C,4-Room,#11-49,11,49,available,93 Sqm,"$516,600"
+115C,4-Room,#11-49,11,49,booked,,
 115C,4-Room,#12-49,12,49,booked,,
 115C,4-Room,#13-49,13,49,booked,,
 115C,4-Room,#14-49,14,49,available,93 Sqm,"$520,800"
