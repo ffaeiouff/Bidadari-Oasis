@@ -1,11 +1,11 @@
-Time: 2016-05-13 10:29:53
+Time: 2016-05-13 11:29:54
 Health check
 ###OK###
 
 Cumulative Selected Stats
 	2-Room Flexi (Short Lease/99-Year Lease): 165/192 (85.94%) selected
 	3-Room: 371/567 (65.43%) selected
-	4-Room: 693/1229 (56.39%) selected
+	4-Room: 696/1229 (56.63%) selected
 	5-Room: 151/151 (100.00%) selected
 
 Per Block Selected Stats
@@ -53,7 +53,7 @@ Per Block Selected Stats
 
 	115A
 	3-Room: 43/48 (89.58%) selected
-	4-Room: 19/48 (39.58%) selected
+	4-Room: 20/48 (41.67%) selected
 
 	115C
 	3-Room: 46/48 (95.83%) selected
@@ -61,5 +61,5 @@ Per Block Selected Stats
 
 	118A
 	3-Room: 52/102 (50.98%) selected
-	4-Room: 64/237 (27.00%) selected
+	4-Room: 66/237 (27.85%) selected
 
