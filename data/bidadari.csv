@@ -810,7 +810,7 @@ $178,600 - 99 Years"
 102B,4-Room,#10-225,10,225,available,93 Sqm,"$498,300"
 102B,4-Room,#11-225,11,225,available,93 Sqm,"$499,700"
 102B,4-Room,#12-225,12,225,available,93 Sqm,"$501,100"
-102B,4-Room,#13-225,13,225,available,93 Sqm,"$502,500"
+102B,4-Room,#13-225,13,225,booked,,
 102B,4-Room,#14-225,14,225,booked,,
 102B,4-Room,#15-225,15,225,booked,,
 102B,4-Room,#16-225,16,225,booked,,
@@ -1617,7 +1617,7 @@ $172,500 - 99 Years"
 106A,4-Room,#15-26,15,26,booked,,
 106A,4-Room,#16-26,16,26,booked,,
 106A,4-Room,#17-26,17,26,booked,,
-106A,4-Room,#03-28,03,28,available,94 Sqm,"$457,600"
+106A,4-Room,#03-28,03,28,booked,,
 106A,4-Room,#04-28,04,28,booked,,
 106A,4-Room,#05-28,05,28,booked,,
 106A,4-Room,#06-28,06,28,booked,,
