@@ -2083,8 +2083,8 @@ $172,500 - 99 Years"
 118A,3-Room,#08-91,08,91,available,68 Sqm,"$343,700"
 118A,3-Room,#09-91,09,91,available,68 Sqm,"$344,700"
 118A,3-Room,#10-91,10,91,available,68 Sqm,"$345,700"
-118A,3-Room,#11-91,11,91,available,68 Sqm,"$346,700"
-118A,3-Room,#12-91,12,91,available,68 Sqm,"$347,700"
+118A,3-Room,#11-91,11,91,booked,,
+118A,3-Room,#12-91,12,91,booked,,
 118A,3-Room,#13-91,13,91,booked,,
 118A,3-Room,#14-91,14,91,booked,,
 118A,3-Room,#15-91,15,91,booked,,
