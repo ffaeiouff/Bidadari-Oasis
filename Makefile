@@ -1,5 +1,5 @@
 build:
-	docker build -t hdb_scraper .
+	docker build -t Bidadari-Oasis .
 
 run:
-	docker run --rm -v `pwd`:/app hdb_scraper
+	docker run --rm -v `pwd`:/app Bidadari-Oasis
