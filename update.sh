@@ -8,7 +8,7 @@ fi
 
 rm -f data/bidadari.log
 
-docker run --rm -v `pwd`/data:/app/data hdb_scraper
+docker run --rm -v `pwd`/data:/app/data Bidadari-Oasis
 
 cat data/bidadari.log
 
