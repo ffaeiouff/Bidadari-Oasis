@@ -148,8 +148,9 @@ if __name__ == "__main__":
         "107B": ["5-Room/3Gen"],
         "108B": ["5-Room/3Gen"],
         "109A": ["5-Room/3Gen"],
+        "109B": ["5-Room/3Gen"],
         "110A": ["5-Room/3Gen"],
-        "110B": ["5-Room/3Gen"],
+        "110B": ["5-Room/3Gen"]
     }
     blocks_and_flat_types = OrderedDict(sorted(blocks_and_flat_types.items()))
 
@@ -158,12 +159,13 @@ if __name__ == "__main__":
         "107B": "C1",
         "108B": "C1",
         "109A": "C1",
+        "109B": "C1",
         "110A": "C1",
-        "110B": "C1",
+        "110B": "C1"
     }
 
     expected_count = {
-        "5-Room/3Gen": 236,
+        "5-Room/3Gen": 236
     }
     expected_count = OrderedDict(sorted(expected_count.items()))
 
