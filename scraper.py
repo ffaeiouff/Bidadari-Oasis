@@ -19,7 +19,7 @@ def new_payload(block, flat_type, contract):
         "EthnicC": "",
         "EthnicO": "",
         "numSPR": "",
-        "dteBallot": "201511",
+        "dteBallot": "201602",
         "Neighbourhood": "N9",
         "BonusFlats1": "N",
         "searchDetails": "",
@@ -144,24 +144,17 @@ if __name__ == "__main__":
     url = "http://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch"
 
     blocks_and_flat_types = {
-        "101A": ["2-Room Flexi (Short Lease/99-Year Lease)", "3-Room", "4-Room"],
-        "102A": ["2-Room Flexi (Short Lease/99-Year Lease)", "4-Room"],
-        "102B": ["3-Room", "4-Room"],
-        "103A": ["3-Room", "4-Room"],
-        "103B": ["3-Room", "4-Room"],
-        "104A": ["2-Room Flexi (Short Lease/99-Year Lease)", "3-Room", "4-Room"],
-        "105A": ["4-Room", "5-Room"],
-        "105B": ["4-Room", "5-Room"],
-        "106A": ["4-Room", "5-Room"],
-        "106B": ["4-Room", "5-Room"],
-        "115A": ["3-Room", "4-Room"],
-        "115C": ["3-Room", "4-Room"],
-        "118A": ["3-Room", "4-Room"]
+        "107A": ["5-Room/3Gen"],
+        "107B": ["5-Room/3Gen"],
+        "108B": ["5-Room/3Gen"],
+        "109A": ["5-Room/3Gen"],
+        "110A": ["5-Room/3Gen"],
+        "110B": ["5-Room/3Gen"],
     }
     blocks_and_flat_types = OrderedDict(sorted(blocks_and_flat_types.items()))
 
     contracts = {
-        "101A": "C1",
+        "107A": "C1",
         "102A": "C1",
         "102B": "C1",
         "103A": "C1",
@@ -177,10 +170,7 @@ if __name__ == "__main__":
     }
 
     expected_count = {
-        "2-Room Flexi (Short Lease/99-Year Lease)": 192,
-        "3-Room": 567,
-        "4-Room": 1229,
-        "5-Room": 151
+        "5-Room/3Gen": 236,
     }
     expected_count = OrderedDict(sorted(expected_count.items()))
 
