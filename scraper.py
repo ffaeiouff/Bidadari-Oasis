@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
     s = requests.Session()
     # Need to make an initial request to grab the cookies
-    s.get("http://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?Town=Toa%20Payoh&Flat_Type=BTO&DesType=A&ethnic=Y&Flat=4-Room&ViewOption=A&dteBallot=201511&projName=A&brochure=false")
+    s.get("http://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?Town=Toa%20Payoh&Flat_Type=BTO&DesType=A&ethnic=Y&Flat=5-Room/3Gen&ViewOption=A&dteBallot=201602&projName=A&brochure=false")
 
     all_units = []
     debug = ""
