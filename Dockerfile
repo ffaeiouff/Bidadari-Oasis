@@ -6,7 +6,7 @@ RUN apk add --update python3 tzdata && \
     python3 -m ensurepip && \
     pip3 install beautifulsoup4 requests && \
     rm -rf /var/cache/apk/* && \
-    mkdir hdb_scraper
+    mkdir Bidadari-Oasis
 
 WORKDIR /app
 ADD scraper.py /app
