@@ -3,7 +3,7 @@
 if [ "$LIVE" = "true" ]; then
     git fetch --all
     git reset --hard origin/master
-    docker build -t hdb_scraper .
+    docker build -t Bidadari-Oasis .
 fi
 
 rm -f data/bidadari.log
